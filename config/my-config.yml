@@ -1,18 +1,42 @@
 pageInfo:
   title: Maniak Academy Lab
 sections: # An array of sections
-- name: Example
+- name: Repositories
   icon: far fa-rocket
   items:
   - title: GitHub
     description: Maniak Academy GitHub
     icon: fab fa-github
     url: https://github.com/maniak-academy
-- name: Local Services
+- name: Network Infrastructure
   items:
   - title: Firewall
-    icon: favicon
+    icon: mdi-fire
     url: http://172.16.10.1/
-  - title: Game Server
+  - title: BIGIQ
     icon: https://i.ibb.co/710B3Yc/space-invader-x256.png
-    url: http://172.16.10.1/
+    url: http://172.16.10.7/
+  - title: BIGIP
+    icon: https://i.ibb.co/710B3Yc/space-invader-x256.png
+    url: http://172.16.10.4/
+  - title: Panorama
+    icon: https://i.ibb.co/710B3Yc/space-invader-x256.png
+    url: http://172.16.10.6/
+  - title: PAN OS
+    icon: https://i.ibb.co/710B3Yc/space-invader-x256.png
+    url: http://172.16.10.5/
+- name: K8S Infrastructure
+  icon: far fa-rocket
+  items:
+  - title: node-1
+    description: K8s node1
+    icon: https://i.ibb.co/710B3Yc/space-invader-x256.png
+    url: http://172.16.50.2/
+  - title: node-2
+    description: K8s node3
+    icon: https://i.ibb.co/710B3Yc/space-invader-x256.png
+    url: http://172.16.50.3/
+  - title: node-3
+    description: K8s node3
+    icon: https://i.ibb.co/710B3Yc/space-invader-x256.png
+    url: http://172.16.50.4.
