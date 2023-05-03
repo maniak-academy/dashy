@@ -25,6 +25,11 @@ sections: # An array of sections
   - title: PAN OS
     icon: https://i.ibb.co/710B3Yc/space-invader-x256.png
     url: http://172.16.10.5/
+- name: Services Infrastructure
+  items:
+  - title: HashiCorp Vault
+    icon: mdi-fire
+    url: http://172.16.50.2:8200/
 - name: K8S Infrastructure
   icon: far fa-rocket
   items:
